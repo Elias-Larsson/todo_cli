@@ -9,12 +9,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-type Task struct {
-	Title     string
-	Completed string
-	CreatedAt time.Time
-}
-
 var addCmd = &cobra.Command{
 	Use:   "add [task description]",
 	Short: "Add a new task",
