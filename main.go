@@ -1,6 +1,6 @@
 package main 
 
-import "todo_cli/cmd"
+import "todo/cmd"
 
 func main() {
 	cmd.Execute()
